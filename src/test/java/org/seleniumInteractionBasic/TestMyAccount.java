@@ -1,4 +1,4 @@
-package org.seleniumInteractionBasic;
+/*package org.seleniumInteractionBasic;
 
 import static org.junit.Assert.*;
 
@@ -37,7 +37,7 @@ public class TestMyAccount {
 	
 	@Test
 	public void test() {
-		driver.get("http://192.168.102.36:8090/jpetstore-1.0.5-env2/");
+		driver.get("http://localhost:8090/jpetstore/");
 
 		// Instanciation PageIndex
 		PageIndex page_index = PageFactory.initElements(driver, PageIndex.class);
@@ -62,3 +62,4 @@ public class TestMyAccount {
 		
 	}
 }
+*/

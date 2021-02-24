@@ -1,4 +1,4 @@
-package org.seleniumInteractionBasic;
+/*package org.seleniumInteractionBasic;
 
 import static org.junit.Assert.*;
 
@@ -33,7 +33,7 @@ public class PrixPanierTest {
 
 	@Test
 	public void test() throws Throwable {
-		driver.get("http://192.168.102.36:8090/jpetstore-1.0.5-env2");
+		driver.get("http://localhost:8090/jpetstore/");
 		logger.info("Accès au magasin");
 		// driver.findElement(By.xpath("//a[@href='shop/signonForm.do']"));
 		// driver.findElement(By.xpath("//*[@name='img_signin']"));
@@ -109,4 +109,4 @@ public class PrixPanierTest {
 		}
 	}
 
-}
+}*/

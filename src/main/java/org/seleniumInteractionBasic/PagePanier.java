@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class PagePanier extends AbstractPageBandeau{
 
-@FindBy (name="update")
+@FindBy (name="updateCartQuantities")
 WebElement btn_update_cart;
 
 @FindBy (xpath="//td/input[contains(@name,'EST')]")

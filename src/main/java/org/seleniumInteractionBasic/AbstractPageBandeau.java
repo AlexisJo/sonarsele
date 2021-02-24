@@ -10,10 +10,10 @@ public class AbstractPageBandeau {
 	@FindBy (name= "keyword")
 	WebElement champ_search;
 	
-	@FindBy (xpath="//input[contains(@src,'search.gif')]")
+	@FindBy (xpath="//input[contains(@name,'search')]")
 	WebElement bouton_search;
 	
-	@FindBy (name="img_signin")
+	@FindBy (xpath="//a[contains(@href, 'action')]")
 	WebElement bouton_signin;
 	
 	@FindBy (name="img_signout")

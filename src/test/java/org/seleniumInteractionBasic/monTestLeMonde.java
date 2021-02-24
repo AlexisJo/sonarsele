@@ -1,4 +1,4 @@
-package org.seleniumInteractionBasic;
+/*package org.seleniumInteractionBasic;
 
 import static org.junit.Assert.*;
 
@@ -39,4 +39,4 @@ public class monTestLeMonde {
 
 	}
 
-}
+}*/

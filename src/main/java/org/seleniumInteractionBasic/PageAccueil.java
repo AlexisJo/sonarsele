@@ -14,7 +14,7 @@ public class PageAccueil extends AbstractPageBandeau {
 
 	static Logger logger = LoggerFactory.getLogger(PageAccueil.class);
 
-	@FindBy(xpath = "//font")
+	@FindBy(xpath = "//*[contains(text(),'Welcome')]")
 	private WebElement message_bienvenue;
 //	
 //	@FindBy(xpath = "//a[contains(@href,'categoryId=FISH')]")

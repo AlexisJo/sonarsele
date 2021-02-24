@@ -44,24 +44,4 @@ public class SocleTechnique {
 		return -1;
 	}
 
-	public static WebDriver choisirNavigateur(Logger logger, String navigateur) {
-		switch (navigateur) {
-		case "f":
-			System.setProperty("webdriver.gecko.driver", "src/main/resources/driver/geckodriver.exe");
-			return new FirefoxDriver();
-		case "c":
-			System.setProperty("webdriver.chrome.driver", "src/main/resources/driver/chromedriver.exe");
-			return new ChromeDriver();
-		case "e":
-			System.setProperty("webdriver.edge.driver", "src/main/resources/driver/msedgedriver.exe");
-			return new EdgeDriver();
-		case "ie":
-			System.setProperty("webdriver.ie.driver", "src/main/resources/driver/IEDriverServer.exe");
-			return new InternetExplorerDriver();
-		default:
-			logger.warn("le navigateur choisi n'existe pas");
-			return null;
-		}
-	}
-
 }

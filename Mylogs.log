@@ -120,3 +120,17 @@
 2020-07-21 17:45:58 [INFO ] PageLogin:20 - Utilisation méthode seConnecter() avec les parametres j2ee/j2ee
 2020-07-21 17:46:46 [INFO ] PageLogin:20 - Utilisation méthode seConnecter() avec les parametres j2ee/j2ee
 2020-07-21 17:52:26 [INFO ] PageLogin:20 - Utilisation méthode seConnecter() avec les parametres j2ee/j2ee
+2021-02-24 09:56:18 [INFO ] PageLogin:20 - Utilisation méthode seConnecter() avec les parametres j2ee/j2ee
+2021-02-24 10:00:17 [INFO ] PageLogin:23 - Utilisation méthode seConnecter() avec les parametres j2ee/j2ee
+2021-02-24 10:01:10 [INFO ] PageLogin:23 - Utilisation méthode seConnecter() avec les parametres j2ee/j2ee
+2021-02-24 10:03:01 [INFO ] PageLogin:23 - Utilisation méthode seConnecter() avec les parametres j2ee/j2ee
+2021-02-24 10:05:40 [INFO ] PageLogin:23 - Utilisation méthode seConnecter() avec les parametres j2ee/j2ee
+2021-02-24 10:12:45 [INFO ] PageLogin:23 - Utilisation méthode seConnecter() avec les parametres j2ee/j2ee
+2021-02-24 10:15:44 [INFO ] PageLogin:23 - Utilisation méthode seConnecter() avec les parametres j2ee/j2ee
+2021-02-24 10:16:26 [INFO ] PageLogin:23 - Utilisation méthode seConnecter() avec les parametres j2ee/j2ee
+2021-02-24 10:16:26 [INFO ] PageAccueil:26 - [[ChromeDriver: chrome on WINDOWS (c0b40b440f2338f5cf22b46f8139dbeb)] -> xpath: //*[contains(text(),'Welcome')]] présent
+2021-02-24 10:17:29 [INFO ] PageLogin:23 - Utilisation méthode seConnecter() avec les parametres j2ee/j2ee
+2021-02-24 10:17:29 [INFO ] PageAccueil:26 - [[ChromeDriver: chrome on WINDOWS (5ff86130b60e5d9a96da08af81c8dbf7)] -> xpath: //*[contains(text(),'Welcome')]] présent
+2021-02-24 10:23:00 [INFO ] PageLogin:23 - Utilisation méthode seConnecter() avec les parametres j2ee/j2ee
+2021-02-24 10:23:01 [INFO ] PageAccueil:26 - [[ChromeDriver: chrome on WINDOWS (415ed8dc6a3d4c44dc32af16a84deaad)] -> xpath: //*[contains(text(),'Welcome')]] présent
+2021-02-24 12:02:58 [INFO ] PageLogin:23 - Utilisation méthode seConnecter() avec les parametres j2ee/j2ee

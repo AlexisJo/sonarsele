@@ -13,10 +13,13 @@ public class PageLogin extends AbstractPageBandeau{
 	WebElement champ_username;
 	@FindBy (name="password")
 	WebElement champ_password;
-	@FindBy (name="update")
+	@FindBy (name="signon")
 	WebElement btn_submit;
+	@FindBy (xpath="//a[contains(@href, 'signon')]")
+	WebElement log_in;
 
 	public PageAccueil seConnecter(WebDriver driver, String username, String password) {
+		log_in.click();
 		logger.info("Utilisation méthode seConnecter() avec les parametres "+username+"/"+password);
 		SocleTechnique.renseignerChamps(champ_username, username);
 		SocleTechnique.renseignerChamps(champ_password, password);
